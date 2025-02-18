@@ -1,10 +1,11 @@
-Для запуска, необоходимо выполнить следующие действия:
+# Для запуска, необоходимо выполнить следующие действия:
 -  docker-compose up -d
 -  python generate_data.py
 -  python producer.py
 -  streamlit run dashboard.py
 В dashboard и producer можно выбрать n для работы с определенным количеством данных
-Примеры графиков из dashboard:
+
+# Примеры графиков из dashboard:
 
 ![newplot(3)](https://github.com/user-attachments/assets/5fe37291-f16f-4006-8194-f0df50efbe61)
 ![newplot(5)](https://github.com/user-attachments/assets/baccbfec-b4ec-42c0-8869-27b9fcec5e70)
