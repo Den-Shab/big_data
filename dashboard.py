@@ -22,7 +22,6 @@ while len(data) < n:
     if msg is None:
         continue
     record = json.loads(msg.value())
-    print(1)
     data.append({
         'time': record['timestamp'],
         'product': record['product_id'],
